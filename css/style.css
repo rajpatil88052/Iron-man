@@ -1,0 +1,387 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    cursor: url('../img/icons8-thor-hammer-48.png'), auto;
+}
+
+::selection {
+    background-color: #df1111;
+    color: white;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.logo {
+    padding-top: 25px;
+    width: 208px;
+    height: 100px;
+}
+
+
+.nav-bar {
+    padding-left: 100px;
+    padding-top: 25px;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+
+}
+
+.nav-bar li a {
+    padding: 20px 25px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    text-decoration: none;
+    border: 1px solid #df1111;
+    padding: 12px 28px;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #df1111;
+}
+
+
+
+svg {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.path {
+    stroke-dashoffset: 1940;
+    stroke-dasharray: 1940;
+    -webkit-animation: draw 10s ease-in-out infinite;
+    -moz-animation: draw 10s ease-in-out infinite;
+    animation: draw 10s ease-in-out infinite;
+    fill-opacity: 0;
+}
+
+@-webkit-keyframes draw {
+    30% {
+        fill-opacity: 0;
+    }
+
+    31% {
+        fill-opacity: 1;
+    }
+
+    32% {
+        fill-opacity: 0;
+    }
+
+    33% {
+        fill-opacity: 1;
+    }
+
+    34% {
+        fill-opacity: 0;
+    }
+
+    35% {
+        fill-opacity: 1;
+    }
+
+    50% {
+        stroke-dashoffset: 0;
+    }
+
+    90% {
+        stroke-dashoffset: 0;
+        fill-opacity: 1;
+    }
+}
+
+@-moz-keyframes draw {
+    30% {
+        fill-opacity: 0;
+    }
+
+    31% {
+        fill-opacity: 1;
+    }
+
+    32% {
+        fill-opacity: 0;
+    }
+
+    33% {
+        fill-opacity: 1;
+    }
+
+    34% {
+        fill-opacity: 0;
+    }
+
+    35% {
+        fill-opacity: 1;
+    }
+
+    50% {
+        stroke-dashoffset: 0;
+    }
+
+    90% {
+        stroke-dashoffset: 0;
+        fill-opacity: 1;
+    }
+}
+
+@keyframes draw {
+    30% {
+        fill-opacity: 0;
+    }
+
+    31% {
+        fill-opacity: 1;
+    }
+
+    32% {
+        fill-opacity: 0;
+    }
+
+    33% {
+        fill-opacity: 1;
+    }
+
+    34% {
+        fill-opacity: 0;
+    }
+
+    35% {
+        fill-opacity: 1;
+    }
+
+    50% {
+        stroke-dashoffset: 0;
+    }
+
+    90% {
+        stroke-dashoffset: 0;
+        fill-opacity: 1;
+    }
+}
+
+.heading-iron h1 {
+    color: #df1111;
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    padding-top: 250px;
+    font-size: 85px;
+    letter-spacing: 2.5rem;
+}
+
+
+.heading-man h1 {
+    color: #df1111;
+    font-family: 'Poppins', sans-serif;
+    font-size: 85px;
+    text-align: left;
+    padding-top: 250px;
+    letter-spacing: 2.5rem;
+}
+
+.tony {
+    padding-top: 190px;
+}
+
+.tony p {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.tony h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 85px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.stark {
+    text-align: right;
+    padding-top: 190px;
+}
+
+.tony h5 span {
+    color: #df1111;
+}
+
+.marvel {
+    padding-top: 180px;
+}
+
+.hulk p {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hulk h3 {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.hulk h3 span {
+    color: #df1111;
+}
+
+.sec {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.zx {
+    padding-top: 100px;
+    text-align: center;
+    transition-duration: .5s;
+}
+
+.zx:hover {
+    transform: translate(0px, -26px);
+
+}
+
+.red {
+    padding-top: 150px;
+    text-align: center;
+    transition-duration: .5s;
+}
+
+.red:hover {
+
+    transform: translate(0px, -26px);
+}
+
+.cd {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cd a {
+    border: 2px solid #df1111;
+    padding: 15px 25px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.cd a:hover {
+    background-color: #df1111;
+}
+
+.footer p {
+    font-family: 'Poppins', sans-serif;
+    color: #df1111;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 150px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:767px) {
+
+    .container {
+        max-width: 100%;
+    }
+
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .heading-man h1 {
+        color: #df1111;
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        text-align: left;
+        padding-top: 52px;
+        letter-spacing: 2.5rem;
+    }
+
+    .heading-iron h1 {
+        color: #df1111;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        padding-top: 250px;
+        font-size: 51px;
+        letter-spacing: 2.5rem;
+    }
+}
